@@ -1,0 +1,528 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 45px;
+
+}
+
+
+
+span {
+    color: rgba(255, 66, 165, 1);
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.social-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(11, 2, 35, 0.1);
+    border-radius: 10px;
+    padding: 0 20px;
+    height: 56px;
+}
+
+.strt-text {
+    
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.title-text {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(249, 72, 178, 1);
+    margin-top: -25px;
+
+
+}
+/* banner section */
+
+.banner-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.left-banner{
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.banner-icon-container{
+    margin-top: -30px;
+    display: grid;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.banner-icon {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-top: -20px;
+    
+}
+
+.btn-grp {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn1 {
+    background-color: rgba(255, 66, 165, 1);
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 25px;
+    font-weight: bold;
+
+}
+
+.btn2 {
+    background-color: rgba(78, 197, 247, 1);
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 25px;
+    font-weight: bold;
+
+}
+
+
+
+.gamer {
+    background-color: rgba(253, 233, 243, 0.555);
+}
+
+.we-are-gamer {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content:center;
+    align-items: center;
+    text-align: right;
+}
+
+.we-are-gamer h3 {
+
+    font-size: 40px;
+    color: rgba(173, 83, 221, 1)
+}
+.we-are-gamer img{
+    width: 100%;
+}
+
+
+.online-game-section {
+    text-align: center;
+}
+
+
+/* code from chat gpt */
+/* code from chat gpt */
+/* code from chat gpt */
+/* code from chat gpt */
+.card {
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    margin-top: 55px;
+    font-weight: bold;
+
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+
+}
+
+.overlay i {
+    color: white;
+    font-size: 48px;
+}
+
+.overlay span {
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.image-container:hover {
+    border: 5px solid rgba(255, 66, 165, 1);
+    border-radius: 20px;
+}
+
+.image-container:hover img {
+
+    transform: scale(1.1);
+
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+
+}
+
+
+
+/* code from chat gpt */
+/* code from chat gpt */
+/* code from chat gpt */
+/* code from chat gpt */
+
+
+
+
+
+
+
+
+
+
+
+
+.play-instant {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+   
+}
+
+.instant-img{
+    position: relative;
+    width: 650px;
+    height: 634px;
+}
+
+.inst-img{
+  z-index: -1;  
+  position: absolute;
+}
+
+.small-img{
+   z-index: 1;
+    width: 365px;
+    height: 250px;
+    object-fit: contain;
+    position: absolute;
+    left: -25%;
+    bottom: -15%;
+}
+.right-text {
+    margin-right: 150px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.careers-container {
+    background-color: rgba(255, 66, 165, 1);
+}
+
+.careers {
+    margin-top: 200px;
+    text-align: left;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.careers button {
+
+
+    border: none;
+    padding: 20px 40px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: rgba(255, 66, 165, 1);
+    width: 50%;
+}
+
+.careers img {
+    width: 100%;
+}
+.careers-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+.left-text{
+    text-align: left;
+}
+.rirht-text{
+    text-align: right;  
+}
+.right-text-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.category-1 {
+
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center; */
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+
+
+
+.all-category {
+    background-color: rgba(250, 237, 243, 0.897);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-container {
+    padding: 100px 0;
+  
+  
+
+
+}
+
+.category {
+    width: 14%;
+    display: flex;
+    gap: 5px;
+    background-color: white;
+    justify-items: center;
+    font-weight: 900;
+    border-radius: 50px;
+    padding: 5px 20px;
+
+}
+.category img{
+    width: 48px;
+    height: 48px;
+}
+
+.category p{
+    font-size:16px;
+}
+
+.category:hover {
+    border: 1px solid rgba(255, 66, 165, 1);
+    color: rgba(255, 66, 165, 1);
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    margin: auto;
+    justify-items: center;
+}
+
+.privacy {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    margin: auto;
+    justify-items: center;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+
+
+}
+
+.footer-container {
+    width: 50%;
+    margin: auto;
+    padding: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width:425px) {
+
+    .navbar,
+    .right-nav
+    {
+        flex-direction: column;
+
+
+    }
+
+    .strt-text {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+
+.we-are-gamer, .card ,.play-instant, .banner-container, .careers{
+    grid-template-columns: repeat(1, 1fr);
+    
+    
+    
+}
+.we-are-gamer{
+    text-align: center;
+}
+.right-text{
+    text-align: center;
+    margin-right: 0px;
+}
+
+.footer-menu{
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 13px;
+}
+.privacy{
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 10px;
+    
+}
+.category{
+    align-items: center;
+    width: 27%;
+    gap: 5px;
+    font-size: 10px;
+    padding: 0 0;
+    justify-content: center;
+}
+.category img{
+    width: 15px;
+    height: 15px;
+    
+}
+
+.category p{
+    font-size:9px;
+}
+.banner-img img{
+    width: 100%;
+    }
+.inst-img{
+        width: 100%;
+        
+        
+}
+    .small-img{
+        width: 100%;
+        bottom: 25%;
+        left: -30%;
+    }
+    
+.careers{
+    
+    font-size: 11px;
+}
+.careers button{
+    padding: 10px 20px
+}
+.right-text-1{
+    text-align: center;
+   
+}
+.instant-img {
+    position: relative;
+    width: 100%;
+    
+    
+    
+}
+
+}
+
+
+@media screen and (min-width:426px) and (max-width:768){
+    
+}
