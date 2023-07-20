@@ -572,5 +572,7 @@ footer {
         left: -10%;
     }
     
-
+    .navbar, .left-banner{
+        padding-bottom: 30px;
+    }
 }
