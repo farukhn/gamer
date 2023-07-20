@@ -523,6 +523,42 @@ footer {
 }
 
 
-@media screen and (min-width:426px) and (max-width:768){
-    
+@media screen and (min-width:426px) and (max-width:769px){
+    .navbar {
+        flex-direction: column;
+        
+    }
+    .banner-container, .play-instant, .careers{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .container{
+        width: 100%;
+    }
+    .category{
+        width: 22%;
+        
+        
+    }
+    .footer-menu{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .privacy{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .we-are-gamer{
+        text-align: center;
+
+    }
+    .inst-img{
+        left: 12%;
+    }
+    .small-img {
+        left: -10%;
+    }
+
 }
